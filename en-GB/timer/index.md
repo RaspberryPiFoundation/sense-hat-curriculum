@@ -1,7 +1,7 @@
 ---
 title: Countdown Timer
 description: Display a visual countdown timer. 
-notes: "Rainbow Predictor - notes.md"
+notes: "Timer - notes.md"
 layout: project
 new: true
 ---
@@ -13,10 +13,10 @@ In this project you will use coloured pixels on the Sense HAT to display a count
 You will be writing code in the Python programming language which you may have learnt in the Python course.  
 
 <div class="trinket">
-<iframe src="https://trinket.io/embed/python/eaea4cb76c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://trinket.io/embed/python/dfdfcc6814?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
-<img src="images/rainbow-final.png">
-</div>
+<img src="images/timer-final.png">
+</div>  
 
 
 #Step 1: Text countdown { .activity}
@@ -142,7 +142,7 @@ Use one of these ideas or come up with your own:
 
 + How many times can you type Code Club in 10 seconds?
 
-+ Gather together a few classroom items such as erasers and pencils. You get 20 seconds to try and memorize them all. Then you close your eyes and have to identify the missing object in 10 seconds. 
++ Gather together a few classroom items such as erasers and pencils. You get 20 seconds to try and memorize them all. Then you close your eyes while your partner removes an object. Can you identify the missing object in 10 seconds? 
 
 
 

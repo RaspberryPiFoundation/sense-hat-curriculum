@@ -115,20 +115,10 @@ Tip: You can create a simple sun by setting all the pixels to yellow with `clear
 
 ![screenshot](images/rainbow-sun.png)
 
-
 How about a snow image if the humidity is above 80% and the temperature is below zero.
 
 Tip: Set red, green and blue to the maximum of 255 to create white.
 
 ![screenshot](images/rainbow-snow.png)
 
-## Challenge: More Accuracy { .challenge}
-
-Rainbows usually occur in the afternoon because of the angle of the sun. 
-
-Can you also check that the current hour is greater than 12 and less that 18 (6pm in 24hr clock) for the rainbow.
-
-You'll need to import the `time` module and use the code below to get the current hour. Then you'll need to also check `h` is in the afternoon for a rainbow. 
-
-![screenshot](images/rainbow-time.png)
 
