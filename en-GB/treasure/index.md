@@ -29,7 +29,7 @@ First let's show a yellow coin at a random pixel and then hide it.
     <iframe src="https://trinket.io/embed/python/3f7798d32e?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
     </div>
 
-+ Take a look at the code that has been included for you. This sets up the Sense HAT and the libraries you will be using and also includes some helper code so that you can get to the interesting stuff more quickly:
++ Take a look at the code that has been included for you. This sets up the Sense HAT and the libraries you will be using, and also includes some helper code so that you can get to the interesting stuff more quickly:
     
     ![screenshot](images/treasure-starter.png)
 
@@ -37,7 +37,7 @@ First let's show a yellow coin at a random pixel and then hide it.
 
     ![screenshot](images/treasure-coin.png)
     
-    Make sure you use a capital letter R. 
+    Make sure you use a capital letter `Y`. 
        
 + Run your code a few time to see the coin appear and disappear at random locations. 
 
@@ -76,7 +76,7 @@ In the emulator you can use the arrow keys for the direction buttons on the joys
     
     ![screenshot](images/treasure-check.png)
     
-    `break` says we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
+    `break` means we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
 
 
 #Step 3: Keeping score { .activity}
@@ -110,7 +110,6 @@ At the moment you only get one go at finding the treasure. Let's give the player
     Make sure there's no indentation before this code, it needs to run after the `for` loop has run 10 times and the game is finished. 
     
  + Now play the game. Can you score 10 out 10?
- 
  
 ## Challenge: Customize the game { .challenge}
 

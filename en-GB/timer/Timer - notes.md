@@ -1,5 +1,5 @@
 ---
-title: Sense HAT Timer — Volunteer Notes
+title: Countdown Timer — Volunteer Notes
 ---
 
 #Introduction:
@@ -7,11 +7,11 @@ In this project, children will learn how to use the Sense HAT LED matrix to disp
 
 #Online Resources
 
-__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 + [Starter Trinket -- jumpto.cc/timer-go](http://jumpto.cc/timer-go)
 
-There is also a trinket containing the completed project:
+There is also a Trinket containing the completed project:
 
 + [‘Timer’ Finished -- trinket.io/python/eaea4cb76c](https://trinket.io/python/eaea4cb76c)
 
@@ -29,6 +29,7 @@ You can also find a completed version of this project in the 'Volunteer Resource
 #Learning Objectives
 + Loops;
 + Sense HAT display;
++ RGB colours.
 
 #Challenges
 + Timer games - create a timer for a game or challenge such as reciting the alphabet in five seconds. 

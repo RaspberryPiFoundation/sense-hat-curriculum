@@ -25,7 +25,7 @@ To set the colour of an individual LED we need to say how much red, green and bl
 
 ## Activity Checklist { .check}
 
-+ Open the Rainbow Predictor Starter Trinket: <a href="http://jumpto.cc/rainbow-go" target="_blank">jumpto.cc/rainbow-go</a>. If you're reading this online, you can also use the embedded version of this trinket below. 
++ Open the Rainbow Predictor Starter Trinket: <a href="http://jumpto.cc/rainbow-go" target="_blank">jumpto.cc/rainbow-go</a>. If you're reading this online, you can also use the embedded version of this Trinket below. 
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/6e4cb01c6b?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -37,19 +37,19 @@ To set the colour of an individual LED we need to say how much red, green and bl
 
     ![screenshot](images/rainbow-red.png)
     
-    Make sure you use a capital letter R. 
+    Make sure you use a capital letter `R`. 
        
-+ Orange is next. Orange is red mixed with green. You can adjust the numbers until you get an orange that you like. Make sure you use a capital letter O not a number zero. 
++ Orange is next. Orange is red mixed with green. You can adjust the numbers until you get an orange that you like. Make sure you use a capital letter `O` not a number zero. 
 
     ![screenshot](images/rainbow-orange.png)
 
-+ Now add variables Y, G, B, I, V so that you have the seven colours of the rainbow. You can look up RGB colours at <a href="http://jumpto.cc/trinket-colours" target="_blank">jumpto.cc/trinket-colours</a>
++ Now add variables `Y`, `G`, `B`, `I`, `V` so that you have the seven colours of the rainbow. You can look up RGB colours at <a href="http://jumpto.cc/trinket-colours" target="_blank">jumpto.cc/trinket-colours</a>
 
     You can test your colours using `sense.clear()`.
     
     ![screenshot](images/rainbow-colours.png)
 
-+ Add a variable X for setting pixels to off (no red, green or blue):
++ Add a variable `X` for setting pixels to off (no red, green or blue):
 
     ![screenshot](images/rainbow-off.png)
 
@@ -109,7 +109,7 @@ Rainbows happen when the sun shines through water droplets at the right angle (u
 
 Can you display a sun image when the temperature is above 20 and the humidity is below 80%. 
 
-Tip: Use `elif` to check for other conditions
+Tip: Use `elif` to check for other conditions.
 
 Tip: You can create a simple sun by setting all the pixels to yellow with `clear()`. Or you can try creating a pixel image like you did with the rainbow. 
 

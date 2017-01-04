@@ -10,7 +10,7 @@ new: true
 
 In this project you will use coloured pixels on the Sense HAT to display a countdown timer.  
 
-You will be writing code in the Python programming language which you may have learnt in the Python course.  
+You will be writing code in the Python programming language, which you may have learnt in the [Python course](../../python/).  
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/dfdfcc6814?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -25,13 +25,13 @@ First let's countdown from 5 to 0 by displaying numbers using the pixels.
 
 ## Activity Checklist { .check}
 
-+ Open the Countdown Timer Starter Trinket: <a href="http://jumpto.cc/timer-go" target="_blank">jumpto.cc/timer-go</a>. If you're reading this online, you can also use the embedded version of this trinket below. 
++ Open the Countdown Timer Starter Trinket: <a href="http://jumpto.cc/timer-go" target="_blank">jumpto.cc/timer-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
+
+    __The code to set up the Sense HAT has been included for you.__
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/b328848f53?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
-
-    The code to set up the Sense HAT has been included for you. 
+</div> 
 
 + First you're going to count up to 5 because that's easier. Add the highlighted code to the bottom of your script:
 
@@ -71,12 +71,11 @@ Another way to create a timer is by turning pixels from green to red.
 
     ![screenshot](images/timer-duplicate.png)
     
-  If you don't have an account, use Share and save a link to the current project then carry on editting it. 
+    If you don't have an account, click 'Share' and save a link to the current project then carry on editting it. 
     
 + Call the new project 'Dot Timer'.
-
     
-+ Keep the R and G colour variables but delete the loop code. Add a variable X to use to turn pixels off, it has no red, green or blue:
++ Keep the `R` and `G` colour variables but delete the `for` loop code. Add a variable X to use to turn pixels off - it has no red, green or blue:
 
     ![screenshot](images/timer-off.png)
  
@@ -87,7 +86,7 @@ Another way to create a timer is by turning pixels from green to red.
 
 + You can give the Sense HAT a list of 64 colours to display starting from the top left and working down a row at a time.
 
-    Let's create a list of colours by creating a green dot for each seconds we want to count and setting the rest of the 64 pixels to off:
+    Let's create a list of colours by creating a green dot for each second we want to count, and setting the rest of the 64 pixels to off:
     
     ![screenshot](images/timer-setup.png)
 
@@ -95,14 +94,13 @@ Another way to create a timer is by turning pixels from green to red.
 
     ![screenshot](images/timer-turn-red.png)
     
-+ And how about flashing the display at the end by turning the pixels on and off:
++ And how about flashing the display __at the end__, by turning the pixels on and off:
 
-   ![screenshot](images/timer-flash.png)
+    ![screenshot](images/timer-flash.png)
 
+#Step 3: Creating a Sandtimer { .activity}
 
-#Step 3: Creating an image timer { .activity}
-
-You can also display simple 8 x 8 images on the Sense HAT. 
+You can also display simple 8x8 pixel images on the Sense HAT LEDs. 
 
 ## Activity Checklist { .check}
 
@@ -112,19 +110,18 @@ You can also display simple 8 x 8 images on the Sense HAT.
 
     If you don't have an account, use Share and save a link to the current project then carry on editting it. 
     
-    Call the new project 'Dot Timer'.
+    Call the new project 'Sandtimer'.
 
 + Your project has images showing a Sandtimer with different amounts of sand. Click on the images icon to see them: 
 
     ![screenshot](images/timer-images.png)
 
-    The images are 8 x 8 png images.
+    The images are 8x8 pixel `.png` images.
    
 + Go back to `main.py` and replace the number countdown code with this highlighted code to create an image countdown:
 
     ![screenshot](images/timer-image-code.png)
       
-    
 + You can also rotate the display on the Sense HAT. Add the following code to make it look like the sand timer is being turned back to its starting position:
 
     ![screenshot](images/timer-rotate.png)
