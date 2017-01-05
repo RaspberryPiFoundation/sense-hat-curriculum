@@ -1,5 +1,5 @@
 ---
-title: Sense HAT Treasure Hunt — Volunteer Notes
+title: Treasure Hunt — Volunteer Notes
 ---
 
 #Introduction:
@@ -7,7 +7,7 @@ In this project, children will learn how to use the Sense HAT joystick to create
 
 #Online Resources
 
-__This project uses Python 3.__ We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+__This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 + [Starter Trinket -- jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
 

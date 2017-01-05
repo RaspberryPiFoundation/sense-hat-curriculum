@@ -8,7 +8,7 @@ new: true
 
 #Introduction:  { .intro}
 
-In this project you will use collect data from the Sense HAT's sensors and log it to a file. Then you will use PyGal to display that data as a line graph. 
+In this project you will collect data from the Sense HAT's sensors and log it to a file. Then you will use the PyGal module to display that data as a line graph. 
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/5e246d8212?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
