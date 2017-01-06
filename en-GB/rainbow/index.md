@@ -16,6 +16,12 @@ In this project you will use the temperature and humidity sensors on the Sense H
 <img src="images/rainbow-final.png">
 </div>
 
+Run the project and try moving the sliders, they look like this:
+
+![screenshot](images/rainbow-sliders.png) 
+
+You'll get a rainbow if the temperature is over 20 degrees C and the humidity is over 80 percent. Try experimenting to find the weather conditions for sunshine (yellow) and snow (white).  
+
 
 #Step 1: Drawing a rainbow { .activity}
 
@@ -33,17 +39,17 @@ To set the colour of an individual LED we need to say how much red, green and bl
 
     The code to set up the Sense HAT has been included for you. 
 
-+ Add the highlighted code to set up a variable for the colour Red and then turn all the pixels red:
++ Add the highlighted code to set up a variable for the colour Red and then turn all the pixels red using `sense.clear(R)`:
 
     ![screenshot](images/rainbow-red.png)
     
     Make sure you use a capital letter `R`. 
        
-+ Orange is next. Orange is red mixed with green. You can adjust the numbers until you get an orange that you like. Make sure you use a capital letter `O` not a number zero. 
++ Orange is next. Orange is red mixed with green. You can adjust the numbers until you get an orange that you like. Make sure you use a capital letter `O` not a number zero. Use `sense.clear(O)` this time to test the new colour. 
 
     ![screenshot](images/rainbow-orange.png)
 
-+ Now add variables `Y`, `G`, `B`, `I`, `V` so that you have the seven colours of the rainbow. You can look up RGB colours at <a href="http://jumpto.cc/trinket-colours" target="_blank">jumpto.cc/trinket-colours</a>
++ Now add variables `Y`, `G`, `B`, `I`, `V` so that you have the seven colours of the rainbow. You can look up RGB colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>
 
     You can test your colours using `sense.clear()`.
     
@@ -109,7 +115,9 @@ Rainbows happen when the sun shines through water droplets at the right angle (u
 
 Can you display a sun image when the temperature is above 20 and the humidity is below 80%. 
 
-Tip: Use `elif` to check for other conditions.
+Tip: Use `elif` to check for other kinds of weather. For each kind of weather you'll need to include a condition to check for a kind of weather and then code to set the display on the Sense HAT.
+
+![screenshot](images/rainbow-elif.png)
 
 Tip: You can create a simple sun by setting all the pixels to yellow with `clear()`. Or you can try creating a pixel image like you did with the rainbow. 
 
@@ -117,7 +125,7 @@ Tip: You can create a simple sun by setting all the pixels to yellow with `clear
 
 How about a snow image if the humidity is above 80% and the temperature is below zero.
 
-Tip: Set red, green and blue to the maximum of 255 to create white.
+Tip: Set red, green and blue to the maximum of 255 to create white. 
 
 ![screenshot](images/rainbow-snow.png)
 
