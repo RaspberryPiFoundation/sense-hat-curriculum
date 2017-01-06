@@ -16,6 +16,10 @@ In this project you will use the joystick and LED Matrix on the Sense HAT to pre
 <img src="images/treasure-final.png">
 </div>
 
+To play the game press Run and watch to see where the yellow dot appears - this is the treasure! Then use the arrow keys on the keyboard to move the white dot to where you think the treasure is hidden. When you get there, press return. You'll see a green dot if you were correct and a red dot if you got it wrong. You'll get 10 tries and then a score out of 10. 
+
+Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT. 
+
 
 #Step 1: Hiding the treasure{ .activity}
 
@@ -33,7 +37,7 @@ First let's show a yellow coin at a random pixel and then hide it.
     
     ![screenshot](images/treasure-starter.png)
 
-+ Go to the bottom of the script and add the following code to display a yellow coin at a random location and then hide it:
++ Let's display a yellow coin at a random location and then hide it. The `coinx` and `coiny` variables are the x and y coordinates of the coin. Go to the bottom of the script and add the following code:
 
     ![screenshot](images/treasure-coin.png)
     
@@ -54,16 +58,34 @@ In the emulator you can use the arrow keys for the direction buttons on the joys
 
 ## Activity Checklist { .check}
 
+Now let's add a pixel that the player can move to where they think the treasure is hidden. The player is a white pixel.
+
 + Now display the player's location using a white pixel:
 
     ![screenshot](images/treasure-player.png)
-
-
-+ Let's get the white pixel moving using the joystick. 
-
-    Every time the player presses one of the arrow keys on the joystick we need to clear the current pixel and draw one at the new location. 
     
-    Add the highlighted code:
+    `x` and `y` are the player's coordinates. 
+
++ Let's get the white pixel moving using the joystick. Every time the player presses one of the arrow keys on the joystick we need to clear the current pixel and draw one at the new location. Let's start by allowing the player to move in the y direction (up and down): 
+
+    ![screenshot](images/treasure-move-y.png)
+    
++ Test your code by pressing the up and down arrows on the keyboard. 
+
+    ![screenshot](images/treasure-arrow-keys.png)
+
+    What happens when you reach the top edge and press up? 
+
+    ![screenshot](images/treasure-error.png)
+    
+    If the y position goes below 0 or above 7 then you'll get an error when you try and set the pixel colour. 
+    
++ Let's add a check to make sure the pixel stays on the display:
+
+   ![screenshot](images/treasure-move-check.png)
+
+
++ Now let's add movement in the x direction. Add the highlighted code:
 
     ![screenshot](images/treasure-move.png)
 
@@ -121,6 +143,6 @@ Are you finding the game too easy? Why not make it harder.
 
 You could show the coin for less time. `sleep(2)` shows the coin for 2 seconds. What about `sleep(0.5)`. 
 
-Or how about confusing the player by making all the pixels turn yellow before they get to pick the location? Use `sense.clear(Y)` to fill the screen with yellow coins after showing the player where the coin is hidden, you'll also need `sleep(1)`. 
+Or how about confusing the player by making all the pixels turn yellow before they get to pick the location? Use `sense.clear(Y)` to fill the screen with yellow coins after showing the player where the coin is hidden, you'll also need `sleep(1)` or however many seconds you want to show the yellow screen for. 
 
 ![screenshot](images/treasure-challenge-coins.png)
