@@ -47,7 +47,6 @@ First let's countdown from 5 to 0 by displaying numbers using the pixels.
     - range(1, 10, 2) would could up in twos giving 1, 3, 7, and 9. 
     - range(5, 0, -1) counts down by taking away -1 giving 5, 4, 3, 2, 1
     
-    
     Change the range in your code so that it counts down to 0:
 
     ![screenshot](images/timer-numbers.png)
@@ -56,9 +55,18 @@ First let's countdown from 5 to 0 by displaying numbers using the pixels.
 
     ![screenshot](images/timer-green.png)
     
-+ Or, red:
+    
+## Challenge: Another colour { .challenge}
+    
+Can you change the colour to one you like? 
+
+Here's another example that uses the colour red:
 
     ![screenshot](images/timer-red.png)
+    
+Try experimenting with the R, G and B values (from 0 to 255.) What colour is `[255, 0, 255]`?
+
+You can also look up the RGB values for a colour using <a href="jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>. 
     
     
 #Step 2: Creating a dot timer { .activity}
@@ -84,9 +92,9 @@ Another way to create a timer is by turning pixels from green to red.
 
    ![screenshot](images/timer-seconds.png)
 
-+ You can give the Sense HAT a list of 64 colours to display starting from the top left and working down a row at a time.
++ You can give the Sense HAT a list of 64 (8 x 8) colours to display starting from the top left and working down a row at a time.
 
-    Let's create a list of colours by creating a green dot for each second we want to count, and setting the rest of the 64 pixels to off:
+    Let's create a list of colours by creating a green dot for each second we want to count, and setting the rest of the 64 pixels to off. The `timer` variable contains the list of colours to display and starts off empty:
     
     ![screenshot](images/timer-setup.png)
 
@@ -98,38 +106,10 @@ Another way to create a timer is by turning pixels from green to red.
 
     ![screenshot](images/timer-flash.png)
 
-#Step 3: Creating a Sandtimer { .activity}
-
-You can also display simple 8x8 pixel images on the Sense HAT LEDs. 
-
-## Activity Checklist { .check}
-
-+ Duplicate your project again to create a new project. 
-
-    ![screenshot](images/timer-duplicate.png)
-
-    If you don't have an account, use Share and save a link to the current project then carry on editting it. 
-    
-    Call the new project 'Sandtimer'.
-
-+ Your project has images showing a Sandtimer with different amounts of sand. Click on the images icon to see them: 
-
-    ![screenshot](images/timer-images.png)
-
-    The images are 8x8 pixel `.png` images.
-   
-+ Go back to `main.py` and replace the number countdown code with this highlighted code to create an image countdown:
-
-    ![screenshot](images/timer-image-code.png)
-      
-+ You can also rotate the display on the Sense HAT. Add the following code to make it look like the sand timer is being turned back to its starting position:
-
-    ![screenshot](images/timer-rotate.png)
-
 
 ## Challenge: Timer games { .challenge}
 
-Can you create a timer for a game or challenge. Will it need to count up or down, can you change the colours?
+Can you create a timer for a game or challenge. Try duplicating one of your timers and changing it. Will your timer need to count up or down, can you change the colours?
 
 Use your timer to challenge a friend. One of you should watch the timer while the other completes the challenge. 
 
