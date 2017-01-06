@@ -66,7 +66,7 @@ Here's another example that uses the colour red:
     
 Try experimenting with the R, G and B values (from 0 to 255.) What colour is `[255, 0, 255]`?
 
-You can also look up the RGB values for a colour using <a href="jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>. 
+You can also look up the RGB values for a colour using <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>. 
     
     
 #Step 2: Creating a dot timer { .activity}
