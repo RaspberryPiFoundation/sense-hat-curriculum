@@ -44,7 +44,7 @@ First let's countdown from 5 to 0 by displaying numbers using the pixels.
        
 + In Python, range(1, 6) returns the numbers 1 to 5. You don't have to count in ones though:
 
-    - range(1, 10, 2) would could up in twos giving 1, 3, 7, and 9. 
+    - range(1, 10, 2) would could up in twos giving 1, 3, 5, 7, and 9. 
     - range(5, 0, -1) counts down by taking away -1 giving 5, 4, 3, 2, 1
     
     Change the range in your code so that it counts down to 0:
@@ -71,19 +71,17 @@ You can also look up the RGB values for a colour using <a href="http://jumpto.cc
     
 #Step 2: Creating a dot timer { .activity}
 
-Another way to create a timer is by turning pixels from green to red.  
+Another way to create a timer is by turning pixels from green to red. 
 
 ## Activity Checklist { .check}
 
-+ Duplicate your project to create a new project. 
++ Open the Dot Timer Starter Trinket: <a href="http://jumpto.cc/dot-timer-go" target="_blank">jumpto.cc/dot-timer-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
-    ![screenshot](images/timer-duplicate.png)
+<div class="trinket">
+    <iframe src="https://trinket.io/embed/python/d01c70443b?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div> 
     
-    If you don't have an account, click 'Share' and save a link to the current project then carry on editting it. 
-    
-+ Call the new project 'Dot Timer'.
-    
-+ Keep the `R` and `G` colour variables but delete the `for` loop code. Add a variable X to use to turn pixels off - it has no red, green or blue:
++ Add a variable X to use to turn pixels off - it has no red, green or blue:
 
     ![screenshot](images/timer-off.png)
  
@@ -109,7 +107,7 @@ Another way to create a timer is by turning pixels from green to red.
 
 ## Challenge: Timer games { .challenge}
 
-Can you create a timer for a game or challenge. Try duplicating one of your timers and changing it. Will your timer need to count up or down, can you change the colours?
+Can you create a timer for a game or challenge. Will your timer need to count up or down, can you change the colours?
 
 Use your timer to challenge a friend. One of you should watch the timer while the other completes the challenge. 
 

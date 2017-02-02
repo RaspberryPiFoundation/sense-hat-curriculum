@@ -1,5 +1,5 @@
 ---
-title: Countdown Timer — Volunteer Notes
+title: Timer — Volunteer Notes
 ---
 
 #Introduction:
@@ -9,7 +9,8 @@ In this project, children will learn how to use the Sense HAT LED matrix to disp
 
 __This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-+ [Starter Trinket -- jumpto.cc/timer-go](http://jumpto.cc/timer-go)
++ [Countdown Timer Starter Trinket -- jumpto.cc/timer-go](http://jumpto.cc/timer-go)
++ [Dot Timer Starter Trinket -- jumpto.cc/timer-go](http://jumpto.cc/dot-timer-go)
 
 There are also Trinkets containing the completed timers:
 
@@ -20,6 +21,7 @@ There are also Trinkets containing the completed timers:
 This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 + timer/countdown-timer.py
++ timer/dot-timer.py
 
 You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 

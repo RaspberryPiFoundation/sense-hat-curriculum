@@ -12,6 +12,13 @@ project-resources:
   - url: timer/countdown-timer.py
     type: file
     description: Offline starter Python file
+  - url: http://jumpto.cc/dot-timer-go
+    type: link
+    text: jumpto.cc/timer-go
+    description: Countdown Timer starter project
+  - url: timer/dot-timer.py
+    type: file
+    description: Offline starter Python file
 volunteer-resources:
   - url: timer-volunteer-resources.zip
     type: file
