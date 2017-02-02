@@ -5,7 +5,6 @@ from time import sleep
 
 sense = SenseHat()
 
-
 G = [0, 255, 0]  # green
 R = [255, 0, 0] # red
 X = [0, 0, 0]  # off
@@ -26,4 +25,3 @@ for i in range(0, 10):
   sleep(0.1)
   sense.set_pixels(timer)
   sleep(0.1)
-
