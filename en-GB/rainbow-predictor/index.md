@@ -16,7 +16,7 @@ In this project you will use the temperature and humidity sensors on the Sense H
 <img src="images/rainbow-final.png">
 </div>
 
-Run the project and try moving the sliders, they look like this:
+In the Trinket emulator you can move the sliders to change the temperature and humidity, they look like this:
 
 ![screenshot](images/rainbow-sliders.png) 
 
@@ -104,7 +104,7 @@ Rainbows happen when the sun shines through water droplets at the right angle (u
 
     Remember that the values reported won't be exactly the same as those shown on the sliders. 
     
-+ A *threshold* is a number that indicates an important change. 30 degrees C and 80% humidity are thresholds for the rainbow detector. 
++ A *threshold* is a number that indicates an important change. 20 degrees C and 80% humidity are thresholds for the rainbow detector. 
 
     Try changing the thresholds and then moving the sliders to trigger a rainbow.  
     
