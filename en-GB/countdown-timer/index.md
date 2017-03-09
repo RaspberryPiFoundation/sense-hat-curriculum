@@ -25,13 +25,10 @@ First let's countdown from 5 to 0 by displaying numbers using the pixels.
 
 ## Activity Checklist { .check}
 
-+ Open the Countdown Timer Starter Trinket: <a href="http://jumpto.cc/timer-go" target="_blank">jumpto.cc/timer-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open the Countdown Timer Starter Trinket: <a href="http://jumpto.cc/timer-go" target="_blank">jumpto.cc/timer-go</a>. 
 
     __The code to set up the Sense HAT has been included for you.__
 
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/b328848f53?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div> 
 
 + First you're going to count up to 5 because that's easier. Add the highlighted code to the bottom of your script:
 

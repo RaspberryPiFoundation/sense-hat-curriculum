@@ -27,11 +27,7 @@ First let's show a yellow coin at a random pixel and then hide it.
 
 ## Activity Checklist { .check}
 
-+ Open the Where's the Treasure? Starter Trinket: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>. If you're reading this online, you can also use the embedded version of this trinket below. 
-
-    <div class="trinket">
-    <iframe src="https://trinket.io/embed/python/3f7798d32e?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-    </div>
++ Open the Where's the Treasure? Starter Trinket: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
 
 + Take a look at the code that has been included for you. This sets up the Sense HAT and the libraries you will be using, and also includes some helper code so that you can get to the interesting stuff more quickly:
     

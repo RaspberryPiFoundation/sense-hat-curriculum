@@ -23,11 +23,7 @@ First let's log the temperature to a file every 5 seconds. You can use the emula
 
 ## Activity Checklist { .check}
 
-+ Open the Weather Logger Starter Trinket: <a href="http://jumpto.cc/weather-go" target="_blank">jumpto.cc/weather-go</a>. If you're reading this online, you can also use the embedded version of this trinket below. 
-
-    <div class="trinket">
-    <iframe src="https://trinket.io/embed/python/6bdc4b7eed?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-    </div>
++ Open the Weather Logger Starter Trinket: <a href="http://jumpto.cc/weather-go" target="_blank">jumpto.cc/weather-go</a>. 
 
     Some files and code have been added for you.
     

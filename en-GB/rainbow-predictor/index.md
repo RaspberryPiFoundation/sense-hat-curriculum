@@ -31,11 +31,7 @@ To set the colour of an individual LED we need to say how much red, green and bl
 
 ## Activity Checklist { .check}
 
-+ Open the Rainbow Predictor Starter Trinket: <a href="http://jumpto.cc/rainbow-go" target="_blank">jumpto.cc/rainbow-go</a>. If you're reading this online, you can also use the embedded version of this Trinket below. 
-
-<div class="trinket">
-<iframe src="https://trinket.io/embed/python/6e4cb01c6b?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div>
++ Open the Rainbow Predictor Starter Trinket: <a href="http://jumpto.cc/rainbow-go" target="_blank">jumpto.cc/rainbow-go</a>. 
 
     The code to set up the Sense HAT has been included for you. 
 
