@@ -35,6 +35,10 @@ You can also find a completed version of this project in the 'Volunteer Resource
 + Sense HAT display;
 + RGB colours.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + Another colour - change the display to use a different RGB colour. 
 + Timer games - create a timer for a game or challenge such as reciting the alphabet in five seconds. 

@@ -30,6 +30,10 @@ You can also find a completed version of this project in the 'Volunteer Resource
 + Physical computing - sensors;
 + Data - writing to and reading from files.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + Simulate different weather conditions - use the Sense HAT emulator to simulate different weather conditions. 
 + Record and display humidity or pressure - record data from a different Sense HAT sensor and graph the results. 
