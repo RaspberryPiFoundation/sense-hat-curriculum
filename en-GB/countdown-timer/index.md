@@ -10,7 +10,7 @@ new: true
 
 In this project you will use coloured pixels on the Sense HAT to display a countdown timer.  
 
-You will be writing code in the Python programming language, which you may have learnt in the [Python course](../../python/).  
+You will be writing code in the Python programming language, which you may have learnt in the [Python module](../../python/).  
 
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/dfdfcc6814?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>

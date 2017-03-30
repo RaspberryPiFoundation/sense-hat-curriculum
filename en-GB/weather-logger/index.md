@@ -10,12 +10,13 @@ new: true
 
 In this project you will collect data from the Sense HAT's sensors and log it to a file. Then you will use the PyGal module to display that data as a line graph. 
 
+You will be writing code in the Python programming language, which you may have learnt in the [Python module](../../python/).
+
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/5e246d8212?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 <img src="images/weather-final.png">
 </div>
-
 
 #Step 1: Logging the temperature { .activity}
 
@@ -25,7 +26,7 @@ First let's log the temperature to a file every 5 seconds. You can use the emula
 
 + Open the Weather Logger Starter Trinket: <a href="http://jumpto.cc/weather-go" target="_blank">jumpto.cc/weather-go</a>. 
 
-    Some files and code have been added for you.
+    __Some files and code have been added for you.__
     
 + Click on `collect.py`. This is where you'll write the code to collect the temperature data. Let's open the `weather.txt` file and write the temperature to it every five seconds.
 

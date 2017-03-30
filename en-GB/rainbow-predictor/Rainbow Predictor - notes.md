@@ -9,7 +9,7 @@ In this project, children will learn how to use the Sense HAT sensors to detect 
 
 __This project uses Python 3.__ We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-+ [Starter Trinket -- jumpto.cc/rainbow-go](http://jumpto.cc/rainbow-go)
++ ['Rainbow Predictor' Starter Trinket -- jumpto.cc/rainbow-go](http://jumpto.cc/rainbow-go)
 
 There is also a trinket containing the completed project:
 

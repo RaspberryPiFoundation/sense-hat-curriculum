@@ -10,6 +10,8 @@ new: true
 
 In this project you will use the temperature and humidity sensors on the Sense HAT to predict when there’s a good chance of spotting a rainbow. When the right conditions are detected you will display a rainbow on the Sense HAT LED Matrix. 
 
+You will be writing code in the Python programming language, which you may have learnt in the [Python module](../../python/).
+
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/eaea4cb76c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
@@ -33,7 +35,7 @@ To set the colour of an individual LED we need to say how much red, green and bl
 
 + Open the Rainbow Predictor Starter Trinket: <a href="http://jumpto.cc/rainbow-go" target="_blank">jumpto.cc/rainbow-go</a>. 
 
-    The code to set up the Sense HAT has been included for you. 
+    __The code to set up the Sense HAT has been included for you.__
 
 + Add the highlighted code to set up a variable for the colour Red and then turn all the pixels red using `sense.clear(R)`:
 
