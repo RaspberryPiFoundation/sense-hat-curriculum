@@ -95,11 +95,11 @@ You'll be tilting the Sense HAT to move your character. Let's start by finding o
 
 	![screenshot](images/tightrope-rpy.png)
 
-+ Try changing the Sense HAT's roll, pitch and yaw values to see how it moves.
++ Try dragging the Sense HAT to change its roll, pitch and yaw values to see how it moves.
 
 	![screenshot](images/tightrope-rpy-test.png)
 
-	__Put the values back to `0` when you've finished testing.__
+	__Press the reset button to put the values back to `0` when you've finished testing.__
 
 + We only need the pitch and the roll for this project, so add 2 lines of code to get these values from the Sense HAT.
 
