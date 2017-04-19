@@ -24,7 +24,7 @@ First let's draw the path that your character must follow.
 
 ## Activity Checklist { .check}
 
-+ Open the Tightrope Starter Trinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>. 
++ Open the Tightrope Starter Trinket: <a href="http://jumpto.cc/tightrope-go" target="_blank">jumpto.cc/tightrope-go</a>.
 
     __The code to set up the Sense HAT has been included for you.__
 
@@ -133,17 +133,17 @@ Now let's move your character when the Sense HAT is tilted.
 
 ## Activity Checklist { .check}
 
-+ Let's move your character to the right if the Sense HAT's `pitch` is between `45` and `90` degrees.
++ Let's move your character to the right if the Sense HAT's `pitch` is between `270` and `315` degrees.
 
-	![screenshot](images/tightrope-right-values.png) 
+	![screenshot](images/tightrope-right-values.png)
 
-+ Add this code to change the character's x position if the pitch is between `45` and `90`:
++ Add this code to change the character's x position if the pitch is between `270` and `315`:
 
 	![screenshot](images/tightrope-charx-plus.png)
 
 	__Make sure that this code is indented, so that the character moves repeatedly if the Sense HAT is tilted.__
 
-+ Tilt your Sense HAT so that the `pitch` is between `45` and `90` degrees. You should see that your character moves to the right, but keeps going off the display!
++ Tilt your Sense HAT so that the `pitch` is between `270` and `315` degrees. You should see that your character moves to the right, but keeps going off the display!
 
 	![screenshot](images/tightrope-charx-test-bug.png)
 
@@ -159,11 +159,11 @@ Now let's move your character when the Sense HAT is tilted.
 
 	![screenshot](images/tightrope-charx-test2.png)
 
-+ We also want to move your character to the left when the `pitch` is between `270` and `315`.
++ We also want to move your character to the left when the `pitch` is between `45` and `90` degrees.
 
 	![screenshot](images/tightrope-left-values.png)
 
-+ Add this code to move your character to the left if the `pitch` is between `270` and `315`, but __only if the character isn't already at the far left of the display__.
++ Add this code to move your character to the left if the `pitch` is between `45` and `90`, but __only if the character isn't already at the far left of the display__.
 
 	![screenshot](images/tightrope-charx-minus.png)
 
@@ -179,7 +179,7 @@ Now let's move your character when the Sense HAT is tilted.
 
 + If you want to slow your game down, you can add short `sleep` at the end of your `while True:` loop.
 
-	![screenshot](images/tightrope-sleep.png)	
+	![screenshot](images/tightrope-sleep.png)
 
 ## Challenge: Moving up! { .challenge}
 Can you add code to move your character up (by changing your `chary` variable by `-1`) when the `roll` is between `270` and `315`?
