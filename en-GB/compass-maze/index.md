@@ -18,7 +18,7 @@ In this project you will use the the Sense HAT as a compass to navigate out of a
 
 To play the game press Run and read the text that appears in the trinket output window.
 
-Your current compass direction will appear on the Sense HAT display (N, S, E or W.) You can change direction by moving the Sense HAT in the emulator. The easiest way to do this is to drag the 'yaw' slider. 
+Your current compass direction will appear on the Sense HAT display (N, S, E or W.) You can change direction by moving the Sense HAT in the emulator. 
 
 When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard. 
 
@@ -29,42 +29,51 @@ The Sense HAT contains a magnetometer that can be used to work out which directi
 
 ## Activity Checklist { .check}
 
-In the emulator North corresponds to the top of your screen. 
+In the emulator North corresponds to the top of your screen. The Sense HAT reports a compass heading in degrees from North. 
 
 Here's a reminder of the points of a compass:
 
-   ![screenshot](images/compass-compass.png)
+![screenshot](images/compass-nsew.png)
 
 + Open the Compass Maze Starter Trinket: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>. 
 
-+ Add the following code to show the compass heading:
++ Add the following code to the bottom of `main.py`:
     
-    ![screenshot](images/treasure-starter.png)
+    ![screenshot](images/compass-get.png)
     
-  This tells you how many degrees you are from facing north. 
-  
-  Make sure all your sliders are set to zero. 
-  
-  The Sense HAT is facing north.
-  
-  Notice that the Raspberry is the right way up. 
-  
-+ Drag the 'yaw' slider to the middle to rotate the Sense HAT 180 degrees. 
++ Run your code to see the compass heading - how many degrees you are from facing north.  
 
-  Now the Sense HAT is facing south, towards the bottom of your screen. 
+    ![screenshot](images/compass-east.png)
   
-+ Drag the 'yaw' slider to 90. Now the Sense HAT is facing 90 degrees (clockwise) from north. This is east. 
+    In its starting position the Sense HAT is facing east and you should see values of about 90 degrees. 
+    
+    The direction is based on the USB ports. 
+   
++ Drag the Sense HAT around to change its direction. 
 
-+ And finally drag the 'yaw' slider to 270. The Sense HAT is facing west. 
+    ![screenshot](images/compass-north.png)
+    
+    Try finding different directions:
+    
+    + North: Around 360 or 0 degrees  
+    + East: Around 90 degrees
+    + South: Around 180 degrees
+    + West: Around 270 degrees
 
-    ![screenshot](images/compass-compass.png)
        
-+ Try setting the 'yaw' slider to different values and make sure you understand which way the Sense HAT is facing. 
++ If you get in a muddle you can always click the reset button to put the Sense HAT back into its starting position. 
+
+    ![screenshot](images/compass-reset.png)
 
 
 #Step 2: Showing the compass direction{ .activity}
 
-Next let's show the compass direction on the Sense HAT screen. 
+Next let's show the compass direction, N, E, S or W, on the Sense HAT screen. 
+
+If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an N. If the heading is between 45 and 135 then you want to display an E and so on. 
+
+    ![screenshot](images/compass-quadrants.png)
+
 
 ## Activity Checklist { .check}
 
@@ -72,14 +81,17 @@ Next let's show the compass direction on the Sense HAT screen.
 
     ![screenshot](images/compass-north.png)
     
++ Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass. 
+    
 + Now let's show an E on the screen when the Sense HAT is facing east. 
 
-
+   ![screenshot](images/compass-east.png)
+   
 + Complete the code for S and W. 
 
 + Your code should look like this:
 
-+ Test your code by dragging the yaw slider. 
++ Test your code by dragging the Sense HAT around. 
 
     You've made a Sense HAT compass. 
     
