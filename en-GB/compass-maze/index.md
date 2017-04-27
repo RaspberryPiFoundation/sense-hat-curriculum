@@ -37,7 +37,7 @@ Here's a reminder of the points of a compass:
 
 + Open the Compass Maze Starter Trinket: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>. 
 
-+ Add the following code to the bottom of `main.py`:
++ Let's find out which direction the Sense HAT is pointing in. Add the following code to the bottom of `main.py`:
     
     ![screenshot](images/compass-get.png)
     
@@ -79,21 +79,45 @@ If the compass heading in degrees is between 315 and 45 then the Sense HAT is po
 
 + First let's show an N on the screen when the Sense HAT is facing north. 
 
+    Remember that when the Sense HAT is facing North the USB ports are at the top:
+
     ![screenshot](images/compass-north.png)
     
-+ Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass. 
-    
-+ Now let's show an E on the screen when the Sense HAT is facing east. 
+    Change your code code to display an 'N' when the compass heading is between 45 and 135:
 
-   ![screenshot](images/compass-east.png)
+    ![screenshot](images/compass-north-code.png)
+    
++ Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass. 
+
+    ![screenshot](images/compass-north-test.png)
+
+The 'N' won't disappear, you need to add code for the other directions. 
+
++ Hmm, the 'N' is sideways. It would make more sense to have the letter facing in the same direction as the USB ports. 
+
+Add the following code to rotate the Sense HAT display. 
+
+    ![screenshot](images/compass-rotate.png)
+    
++ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degree so you can just check that it's less than 135:
+
+   ![screenshot](images/compass-code-east.png)
    
-+ Complete the code for S and W. 
++ Add the code for south. Look at the compass to work out what the condition needs to be. 
 
 + Your code should look like this:
 
+   ![screenshot](images/compass-code-south.png)
+
++ Now add th code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
+
+  ![screenshot](images/compass-code-west.png)
+
 + Test your code by dragging the Sense HAT around. 
 
-    You've made a Sense HAT compass. 
+    You've made a Sense HAT compass!
+    
+ 
     
 
 #Step 3: Navigating the maze { .activity}
