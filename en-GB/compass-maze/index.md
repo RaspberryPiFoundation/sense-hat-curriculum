@@ -120,7 +120,6 @@ The 'N' won't disappear, you need to add code for the other directions.
     You've made a Sense HAT compass!
     
  
-    
 
 #Step 3: Navigating the maze { .activity}
 
