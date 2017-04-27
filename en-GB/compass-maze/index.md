@@ -83,7 +83,7 @@ If the compass heading in degrees is between 315 and 45 then the Sense HAT is po
 
     ![screenshot](images/compass-north.png)
     
-    Change your code code to display an 'N' when the compass heading is between 45 and 135:
++ Change your code code to display an 'N' when the compass heading is between 45 and 135:
 
     ![screenshot](images/compass-north-code.png)
     
@@ -95,23 +95,25 @@ The 'N' won't disappear, you need to add code for the other directions.
 
 + Hmm, the 'N' is sideways. It would make more sense to have the letter facing in the same direction as the USB ports. 
 
-Add the following code to rotate the Sense HAT display. 
+    Add the following code to rotate the Sense HAT display. 
 
     ![screenshot](images/compass-rotate.png)
     
+    Now the compass letter will lined up with the USB ports which makes more sense when using the Sense HAT as a compass. 
+    
 + Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degree so you can just check that it's less than 135:
 
-   ![screenshot](images/compass-code-east.png)
+    ![screenshot](images/compass-east-code.png)
    
 + Add the code for south. Look at the compass to work out what the condition needs to be. 
 
 + Your code should look like this:
 
-   ![screenshot](images/compass-code-south.png)
+   ![screenshot](images/compass-south-code.png)
 
 + Now add th code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
 
-  ![screenshot](images/compass-code-west.png)
+  ![screenshot](images/compass-west-code.png)
 
 + Test your code by dragging the Sense HAT around. 
 
