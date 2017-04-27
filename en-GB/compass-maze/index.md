@@ -126,53 +126,108 @@ The 'N' won't disappear, you need to add code for the other directions.
 
 Now let's use the compass to navigate around a maze.  
 
+The rooms and doors in the Maze are as shown in this map:
+
+![screenshot](images/compass-maze-map.png)
+    
+You start in the Blue room and need to find the Green room to escape. 
+
+
 ## Activity Checklist { .check}
     
 + The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project. 
 
-    You'll need to import `maze.py` to use it:
-
-    ![screenshot](images/compass-import.png)
-    
     `maze.py` includes some functions to help you write a maze game:
     
     + `maze.start()` - starts the game
     + `maze.escaped()` - tells you whether the player has escaped the maze
-    + `maze.walk(dir)` - moves the player in the given direction  
+    + `maze.walk(dir)` - moves the player in the given direction 
+    + `maze.getColour()` - gives you the colour of the current room
+
+    You'll need to import `maze.py`:
+
+    ![screenshot](images/compass-import.png) 
     
 + Start the game with `maze.start()`:
 
     ![screenshot](images/compass-start.png)
+    
++ You'll see the game instructions appear below the Sense HAT. 
+    
+    ![screenshot](images/compass-start-test.png)
+       
++ To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in. 
+
+    Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
+    
+    ![screenshot](images/compass-dir.png)
+
++ Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick. 
+
+   ![screenshot](images/compass-joystick.png)
+   
++ Try moving around the maze using the compass. 
+
+    To press the joystick you need to click in the Sense HAT window and then press Enter (Return) on the keyboard. 
+    
++ Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard. 
+
+Look at the map if you need help to find the Green room. 
+
++ When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
+
+   ![screenshot](images/compass-end.png)
+   
+   The `break` finished the loop to end the game. 
+
     
 #Step 4: Add colours { .activity}
 It would be better if you could tell which room you were in just by looking at the Sense HAT. 
 
 Let's display the compass letter in the colour of the current room. 
 
-If you're in the Blue room and facing South you should see a blue letter S.
+For example, if you're in the Blue room and facing South you should see a blue letter S.
 
 ## Activity Checklist { .check}
-
-+ First create a dictionary of colours for the rooms. 
-
-   ![screenshot](images/compass-start.png)
    
++ You'll need to provide a `text-colour` to `sense.show_letter`. Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT. 
+
+    `dir[0].upper()` takes the first letter of a string and turns it into a capital so "north" gives you 'N'.
+
+    Change your compass code to use `show_letter` once:
+
+    ![screenshot](images/compass-upper.png)
+    
++ Your compass code should look like this:
+
+  ![screenshot](images/compass-upper-done.png)
+
 + Now use the colour of the current room when you display the compass letter:
 
-   ![screenshot](images/compass-start.png)
+   ![screenshot](images/compass-colour.png)
    
 + Test your code and you should find that you can tell which room you're in from the colour of the letter. 
+
+   ![screenshot](images/compass-colour-east.png)
+   
+
+## Activity Checklist { .check}
  
 ## Challenge: Reward the player
 
 Can you reward the player with a cool display on the Sense HAT when they manage to escape? 
+
+You'll need to replace the highlighted code with your own code:
+
+  ![screenshot](images/compass-reward.png)
  
 ## Challenge: Create your own maze { .challenge}
 
-Create your own colourful maze and get a friend to try and find their way out. 
+Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass. 
 
-    You'll need to:
+You'll need to:
 
-    + Edit the rooms dictionary in maze.py
-    + Add new colours the colours dictionary
++ Edit the rooms dictionary in maze.py
++ Edit the colours dictionary in maze.py
 
+It might help to draw your map on paper first. 
