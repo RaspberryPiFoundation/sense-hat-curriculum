@@ -3,7 +3,7 @@ title: Compass Maze — Volunteer Notes
 ---
 
 #Introduction:
-In this project, children will learn ... 
+In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
 
 #Online Resources
 
@@ -29,12 +29,12 @@ You can also find a completed version of this project in the 'Volunteer Resource
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
 #Learning Objectives
-+ ...
++ How to use the Sense HAT magnetometer (`get_compass()`)
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 #Challenges
-+  
-
++  "Reward the player" - Displaying n image on the LEDs at the end of the game;
++ "Create your own maze" - edit the maze dictionary to create their own maze.

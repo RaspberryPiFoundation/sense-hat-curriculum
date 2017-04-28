@@ -1,5 +1,5 @@
 ---
-title: Countdown Timer - Materials
+title: Compass Maze - Materials
 layout: project-materials
 project-resources:
   - url: compass-maze-project-resources.zip
