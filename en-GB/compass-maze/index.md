@@ -70,7 +70,7 @@ Here's a reminder of the points of a compass:
 
 Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
 
-If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an N. If the heading is between 45 and 135 then you want to display an E and so on.
+If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 135 then you want to display an 'E' and so on.
 
 ![screenshot](images/compass-quadrants.png)
 
@@ -111,7 +111,7 @@ The 'N' won't disappear, you need to add code for the other directions.
 
    ![screenshot](images/compass-south-code.png)
 
-+ Now add th code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
++ Now add the code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
 
   ![screenshot](images/compass-west-code.png)
 
