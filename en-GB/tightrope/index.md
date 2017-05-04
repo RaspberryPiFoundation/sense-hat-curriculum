@@ -81,7 +81,7 @@ Let's add the character to your game.
 
 	![screenshot](images/tightrope-set-pixel.png)
 
-+ Test you code, and you should now see your character in the top-left of the screen.
++ Test your code, and you should now see your character in the top-left of the screen.
 
 	![screenshot](images/tightrope-final.png)
 
