@@ -62,9 +62,9 @@ Now you've collected some temperature data let's show it on a line graph.
 
 ## Activity Checklist { .check}
 
-+ Click on `main.py`. At the moment it includes the `collect.py` script that you wrote to collect the temperature data. Now change it so that it includes the `display.py` script instead. 
++ Click on `main.py`. At the moment it imports the `collect.py` script that you wrote to collect the temperature data. Now change it so that it imports the `display.py` script instead. 
 
-    Comment out the `include collect` line by adding a `#` at the beginning and remove the `#` from the beginning of the `include display` line. 
+    Comment out the `import collect` line by adding a `#` at the beginning and remove the `#` from the beginning of the `import display` line. 
     
     `main.py` should now look like this:
     
