@@ -34,7 +34,7 @@ First let's draw the path that your character must follow.
 
 	![screenshot](images/tightrope-yellow.png)
 
-	(If you prefer, you can go to [http://jumpto.cc/colours](jumpto.cc/colours) and choose any colour you like!
+	(If you prefer, you can go to [jumpto.cc/colours](http://jumpto.cc/colours) and choose any colour you like!
 
 + You'll also need black pixels (or any colour you like) around the path.
 
@@ -44,7 +44,7 @@ First let's draw the path that your character must follow.
 
 	![screenshot](images/tightrope-path.png)
 
-	To save typing, you can copy the rainbow from `snippets.py` in your project.
+    __To save typing, you can copy the rainbow from `snippets.py` in your project.__
 
 	![screenshot](images/tightrope-snippets.png)
 
@@ -77,7 +77,7 @@ Let's add the character to your game.
 
 	![screenshot](images/tightrope-xy.png)
 
-+ To display your character, use `set_pixel`. You need tp tell `set_pixel` the x and y position of the pixel to set, as well as the colour.
++ To display your character, use `set_pixel`. You need to tell `set_pixel` the x and y position of the pixel to set, as well as the colour.
 
 	![screenshot](images/tightrope-set-pixel.png)
 
@@ -99,7 +99,7 @@ You'll be tilting the Sense HAT to move your character. Let's start by finding o
 
 	![screenshot](images/tightrope-rpy-test.png)
 
-	__Press the reset button to put the values back to `0` when you've finished testing.__
+	__Press the reset button to put the Sense HAT back to the starting position when you've finished testing.__
 
 + We only need the pitch and the roll for this project, so add 2 lines of code to get these values from the Sense HAT.
 
