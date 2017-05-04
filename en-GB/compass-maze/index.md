@@ -101,7 +101,7 @@ The 'N' won't disappear, you need to add code for the other directions.
 
     Now the compass letter will lined up with the USB ports which makes more sense when using the Sense HAT as a compass.
 
-+ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degree so you can just check that it's less than 135:
++ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degrees so you can just check that it's less than 135:
 
     ![screenshot](images/compass-east-code.png)
 
