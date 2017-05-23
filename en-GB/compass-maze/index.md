@@ -101,7 +101,7 @@ The 'N' won't disappear, you need to add code for the other directions.
 
     Now the compass letter will lined up with the USB ports which makes more sense when using the Sense HAT as a compass.
 
-+ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degree so you can just check that it's less than 135:
++ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degrees so you can just check that it's less than 135:
 
     ![screenshot](images/compass-east-code.png)
 
@@ -109,11 +109,11 @@ The 'N' won't disappear, you need to add code for the other directions.
 
 + Your code should look like this:
 
-   ![screenshot](images/compass-south-code.png)
+    ![screenshot](images/compass-south-code.png)
 
 + Now add the code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
 
-  ![screenshot](images/compass-west-code.png)
+    ![screenshot](images/compass-west-code.png)
 
 + Test your code by dragging the Sense HAT around.
 
@@ -163,7 +163,7 @@ You start in the Blue room and need to find the Green room to escape.
 
 + Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
 
-   ![screenshot](images/compass-joystick.png)
+    ![screenshot](images/compass-joystick.png)
 
 + Try moving around the maze using the compass.
 
@@ -171,11 +171,11 @@ You start in the Blue room and need to find the Green room to escape.
 
 + Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard.
 
-Look at the map if you need help to find the Green room.
+    Look at the map if you need help to find the Green room.
 
 + When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
 
-   ![screenshot](images/compass-end.png)
+    ![screenshot](images/compass-end.png)
 
    The `break` finished the loop to end the game.
 
@@ -199,15 +199,15 @@ For example, if you're in the Blue room and facing South you should see a blue l
 
 + Your compass code should look like this:
 
-  ![screenshot](images/compass-upper-done.png)
+    ![screenshot](images/compass-upper-done.png)
 
 + Now use the colour of the current room when you display the compass letter:
 
-   ![screenshot](images/compass-colour.png)
+    ![screenshot](images/compass-colour.png)
 
 + Test your code and you should find that you can tell which room you're in from the colour of the letter.
 
-   ![screenshot](images/compass-colour-east.png)
+    ![screenshot](images/compass-colour-east.png)
 
 
 ## Activity Checklist { .check}
@@ -218,7 +218,7 @@ Can you reward the player with a cool display on the Sense HAT when they manage 
 
 You'll need to replace the highlighted code with your own code:
 
-  ![screenshot](images/compass-reward.png)
+    ![screenshot](images/compass-reward.png)
 
 ## Challenge: Create your own maze { .challenge}
 

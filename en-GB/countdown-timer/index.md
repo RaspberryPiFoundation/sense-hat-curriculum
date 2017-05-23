@@ -39,16 +39,18 @@ First let's countdown from 5 to 0 by displaying numbers using the pixels.
     `sleep(1)` waits one second before carrying on. 
      
        
-+ In Python, range(1, 6) returns the numbers 1 to 5. You don't have to count in ones though:
++ In Python, `range(1, 6)` returns the numbers 1 to 5. You don't have to count in ones though:
 
-    - range(1, 10, 2) would could up in twos giving 1, 3, 5, 7, and 9. 
+    - range(1, 10, 2) would count up in twos giving 1, 3, 5, 7, and 9. 
     - range(5, 0, -1) counts down by taking away -1 giving 5, 4, 3, 2, 1
     
     Change the range in your code so that it counts down to 0:
 
     ![screenshot](images/timer-numbers.png)
     
-+ The number doesn't have to be white, the Sense HAT can display lots of colours. It uses RGB colours, try using green:
++ The number doesn't have to be white, the Sense HAT can display lots of colours. It uses RGB colours (red, green and blue).
+
+Try using green:
 
     ![screenshot](images/timer-green.png)
     
@@ -72,11 +74,7 @@ Another way to create a timer is by turning pixels from green to red.
 
 ## Activity Checklist { .check}
 
-+ Open the Dot Timer Starter Trinket: <a href="http://jumpto.cc/dot-timer-go" target="_blank">jumpto.cc/dot-timer-go</a>. If you're reading this online, you can also use the embedded version of this trinket below.
-
-<div class="trinket">
-    <iframe src="https://trinket.io/embed/python/d01c70443b?start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</div> 
++ Open the Dot Timer Starter Trinket: <a href="http://jumpto.cc/dot-timer-go" target="_blank">jumpto.cc/dot-timer-go</a>. 
     
 + Add a variable X to use to turn pixels off - it has no red, green or blue:
 
