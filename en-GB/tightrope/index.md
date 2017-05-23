@@ -44,7 +44,7 @@ First let's draw the path that your character must follow.
 
 	![screenshot](images/tightrope-path.png)
 
-    __To save typing, you can copy the rainbow from `snippets.py` in your project.__
+    __To save typing, you can copy the code from `snippets.py` in your project.__
 
 	![screenshot](images/tightrope-snippets.png)
 
