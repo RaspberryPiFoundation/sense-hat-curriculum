@@ -70,7 +70,7 @@ Here's a reminder of the points of a compass:
 
 Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
 
-If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 135 then you want to display an 'E' and so on.
+If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 315 then you want to display an 'E' and so on.
 
 ![screenshot](images/compass-quadrants.png)
 
